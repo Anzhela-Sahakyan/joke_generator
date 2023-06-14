@@ -1,0 +1,36 @@
+#header {
+  text-align: center;
+  font-size: 80px;
+  color: #957dad;
+}
+
+#root {
+  margin: 200px;
+  background-color: #ffdfd3;
+  font-size: larger;
+  border: solid;
+  border-color: #d291bc;
+  text-align: center;
+}
+
+#generate-button {
+  border-radius: 10px;
+  border-color: #fec8d8;
+  background-color: #e7ab9a;
+  cursor: pointer;
+  font-size: larger;
+  height: 50px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  transition-duration: 0.4s;
+}
+
+#generate-button:hover {
+  height: 60px;
+  width: 160px;
+  background-color: rgb(203, 193, 215);
+}
